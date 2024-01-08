@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: evo2win
+  environment: servers
 
 steps:
 - task: NodeTool@0
